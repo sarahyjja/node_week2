@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "tape test/*.js | tap-spec",
+    "test": "test/*.js | tap-spec",
     "start": "node server.js"
   },
   "repository": {
@@ -17,7 +17,9 @@
     "url": "https://github.com/sarahyjja/node_week2/issues"
   },
   "homepage": "https://github.com/sarahyjja/node_week2#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "supertest": "^4.0.2",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0"
   }
